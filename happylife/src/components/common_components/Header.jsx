@@ -1,30 +1,33 @@
 import React from 'react';
+import "./header.css"
 
 const Header = () => {
   return (
-    <header className="bg-dark text-white py-3 shadow w-100 position-absolute top-0 start-0 px-4">
-      <div className="container-fluid d-flex justify-content-between align-items-center">
+    <header className="navq py-3 shadow-none w-100 top-0 start-0 px-4">
+    <div className="container-fluid d-flex justify-content-between align-items-center">
+      
+      
         
         {/* Logo and Title */}
         <h1 className="fs-2 fw-bold text-uppercase tracking-wide m-0">
-          <span className="text-primary">Borrow </span>
-          <span className="text-light">Wheel<span className="text-danger">Z</span></span>
+          <span className="text-primary">Happy </span>
+          <span className="text-muted">Life</span>
         </h1>
 
         {/* Navbar */}
         <nav>
           <ul className="navbar-nav d-flex flex-row gap-4">
             <li className="nav-item">
-              <a className="nav-link text-white" href="#">Home</a>
+              <a className="nav-link text-dark" href="#">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#">About Us</a>
+              <a className="nav-link text-dark" href="#">About Us</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="/contact-us">Contact Us</a>
+              <a className="nav-link text-dark" href="/contact-us">Contact Us</a>
             </li>
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a className="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Account
               </a>
               <ul className="dropdown-menu">
