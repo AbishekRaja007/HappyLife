@@ -11,23 +11,23 @@ const Header = () => {
         {/* Logo and Title */}
         <h1 className="fs-2 fw-bold text-uppercase tracking-wide m-0">
           <span className="text-primary">Happy </span>
-          <span className="text-muted">Life</span>
+          <span className="text-light">Life</span>
         </h1>
 
         {/* Navbar */}
         <nav>
           <ul className="navbar-nav d-flex flex-row gap-4">
             <li className="nav-item">
-              <a className="nav-link text-dark" href="#">Home</a>
+              <a className="nav-link text-light" href="#">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-dark" href="#">About Us</a>
+              <a className="nav-link text-light" href="#">About Us</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-dark" href="/contact-us">Contact Us</a>
+              <a className="nav-link text-light" href="/contact-us">Contact Us</a>
             </li>
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a className="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Account
               </a>
               <ul className="dropdown-menu">
