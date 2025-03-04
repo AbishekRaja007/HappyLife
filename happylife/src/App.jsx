@@ -7,7 +7,9 @@ import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 import Pagenotfound from './pages/common_pages/Pagenotfound'
 import Header from './components/common_components/Header'
 import Footer from './components/common_components/Footer'
-import ContactPage from './pages/contact_pages/contactpage'
+import ContactPage from './pages/common_pages/Contactpage'
+import Loginpage from './pages/common_pages/Loginpage'
+import Aboutus from './pages/common_pages/Aboutus'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,7 +21,8 @@ function App() {
         <Route path="/" element={<Homepage />}></Route>
         <Route path="/home" element={<Homepage />}></Route>
         <Route path="/homepage" element={<Homepage />}></Route>
-
+        <Route path="/loginpage" element={<Loginpage />}></Route>
+        <Route path="/Aboutus" element={<Aboutus />}></Route>
         <Route path="/contact-us" element={<ContactPage />}></Route>
 
         <Route path="/pagenoutfound" element={<Pagenotfound />}></Route>

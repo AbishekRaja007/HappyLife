@@ -21,7 +21,7 @@ const Header = () => {
               <a className="nav-link text-light" href="#">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-light" href="#">About Us</a>
+              <a className="nav-link text-light" href="/Aboutus">About Us</a>
             </li>
             <li className="nav-item">
               <a className="nav-link text-light" href="/contact-us">Contact Us</a>
@@ -31,7 +31,7 @@ const Header = () => {
                 Account
               </a>
               <ul className="dropdown-menu">
-                <li><a className="dropdown-item" href="#">Login</a></li>
+                <li><a className="dropdown-item" href="loginpage">Login</a></li>
                 <li><a className="dropdown-item" href="#">Sign Up</a></li>
               
               </ul>
